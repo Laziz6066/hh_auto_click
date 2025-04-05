@@ -59,7 +59,7 @@ def jobs(job_url):
 
 def main():
     for i in range(2):
-        print(f"Страница {i}", '-' * 40)
+        print(f"Страница {i}", '-' * 50)
         url = (f"https://hh.ru/search/vacancy?text=python&salary=&ored_clusters=true&page={i}"
                f"&searchSessionId=955a671a-bb40-4945-9489-9550f2b67771")
         jobs(url)
